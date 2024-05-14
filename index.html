@@ -47,6 +47,20 @@
             max-width: 100%;
             height: auto;
         }
+        .destination-info {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .destination-info img {
+            max-width: 50%;
+            height: auto;
+        }
+        .destination-info-text {
+            flex: 1;
+            padding: 0 20px;
+        }
     </style>
 </head>
 <body>
@@ -67,6 +81,15 @@
             <img src="image3.jpg" alt="Destination 3">
             <!-- Ajoutez plus d'images ici -->
         </div>
+        <div class="destination-info">
+            <img src="destination.jpg" alt="Destination" class="destination-image">
+            <div class="destination-info-text">
+                <h3>Nom de la Destination</h3>
+                <p>Description brève de la destination. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus, justo et aliquam ultrices, justo velit bibendum lorem, vel vestibulum purus dui eget tortor.</p>
+                <a href="#">En savoir plus</a>
+            </div>
+        </div>
+        <!-- Ajoutez plus d'informations sur d'autres destinations ici -->
     </div>
 </body>
 </html>
